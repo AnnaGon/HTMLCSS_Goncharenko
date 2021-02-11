@@ -1,0 +1,116 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    width: 1600px;
+    padding-top: 50px;
+    
+}
+header{
+    display: flex;
+}
+.logo{
+    width: 95px;
+    height: 30px;
+    margin-left: 80px;
+    margin-right: 0px;
+}
+navigation{
+    margin-left:97px;
+}
+ul li{
+    display: inline;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    margin-right: 40px;
+    
+}
+
+button{
+    border-color: transparent;
+    font-family: Roboto;
+    font-size: 16px;
+    
+}
+.account{
+    margin-top: -20px;
+    margin-right:67px;
+}
+.signup{
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    width: 120px;
+    height: 59.65px;
+    background: #33A2E0;
+    border-radius: 6px;
+    
+}
+.signin{
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    width: 120px;
+    height: 59.65px;
+    background: transparent;
+    
+}
+
+/* Main part */
+
+.main{
+    display: flex;
+    padding: 130px 45px 156px 200px;
+    
+}
+.text{
+    padding-right: 60px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    
+}
+
+.title{
+    font-family: Ramaraja;
+    font-size: 70px;
+    line-height: 76px;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    
+}
+.maintext{
+    width: 568px;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+    margin-top: 10px;
+    
+}
+.Learnmore{
+    margin-top: 50px;
+    width: 152px;
+    height: 64px;
+    background: #33A2E0;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    
+}
+.picture{
+    width: 790px;
+    height: 543px;
+}
