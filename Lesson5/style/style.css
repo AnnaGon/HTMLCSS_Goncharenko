@@ -18,15 +18,23 @@ header{
 }
 navigation{
     margin-left:97px;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #1B0A42;
 }
 ul li{
-    display: inline;
     font-family: Roboto;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #1B0A42;
+    /* color: #1B0A42; */
     margin-right: 40px;
     
 }
