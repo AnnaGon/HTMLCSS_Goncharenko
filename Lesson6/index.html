@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <header>
+            <p>Contact Manager</p>
+        </header>
+        <div class="container">
+            <!-- Left side of the form -->
+            <div class="container__left">
+                
+                <div class="container__left-item">
+                    <label for="name"> First name<span>*</span></label>
+                    <input class="container__left-item-input" type="text" required>
+                </div>
+                
+                <div class="container__left-item">
+                    <label for="Second name"> Last name<span>*</span></label>
+                    <input type="text" class="container__left-item-input" required>
+                </div>
+                
+                <div class="container__left-item">
+                    <label for="address">Address</label>
+                    <textarea class="container__left-item-input container__left-item-textarea" name="address" placeholder="enter your address here"></textarea>
+                </div>
+                
+                <div class="container__left-item">
+                    <label for="city">City</label>
+                    <input type="text" class="container__left-item-input">
+                </div>
+                
+                <div class="container__left-item">
+                    <label for="state">State</label>
+                    <select class="container__left-item-input" name="select">
+                        <option value="select">Select</option>
+                        <option value="Kyiv">Kyiv</option>
+                        <option value="Lviv">Lviv</option>
+                        <option value="Odesa">Odesa</option>
+                    </select>
+                </div>
+                
+                <div class="container__left-item">
+                    <label for="zip">Zip</label>
+                    <input type="number" class="container__left-item-input">
+                </div>
+                
+                <div class="container__left-item">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" class="container__left-item-input-phone">
+                </div>
+                
+                <div class="container__left-item">
+                    <label for="work phone">Work Phone<span>*</span></label>
+                    <input class="container__left-item-input" type="tel" required>
+                </div>
+                
+                <div class="container__left-item">
+                    <label for="fax">Fax number</label>
+                    <input type="tel" class="container__left-item-input-fex">
+                </div>
+                
+                <div class="container__left-item">
+                    <label for="website">Website</label>
+                    <div class="container__left-item container__additional">
+                        <p class="container__left-item-text"> URL 
+                            <input type="url" name="url name">
+                        </p>
+                        <p class="container__left-item-text">Link name
+                            <input type="url" name="link name">
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="container__left-item">
+                    <label for="email">Email address<span>*</span></label>
+                    <input type="email" class="container__left-item-input" required>
+                </div>
+            </div>
+            <!-- Right side of the form -->
+            
+            <div class="container__right">
+                <!-- 1 container -->
+                <div class="container__right-items">
+                    <div class="container__right-items-item">
+                        <p>When is the best time to contact you?
+                        </p>
+                    </div>
+                    <div class="container__right-items-item">
+                        <input class="container__right-input" type="radio" name="time" value="morning"> Morning<br>
+                        <input class="container__right-input" type="radio" name="time" value="afternoon"> Afternoon<br>
+                        <input class="container__right-input" type="radio" name="time" value="evening"> Evening<br>
+                    </div>
+                </div>
+                <!-- 2 container -->
+                
+                <div class="container__right-items">
+                    <div class="container__right-items-item">
+                        <p>What is the best way to contact you?</p>
+                    </div>
+                    <div class="container__right-items-item">
+                        <input class="container__right-input" type="radio" name="contact" value="phone"> Phone<br>
+                        <input class="container__right-input" type="radio" name="contact" value="email"> Email<br>
+                        <input class="container__right-input" type="radio" name="contact" value="fax"> Fax<br>
+                    </div>
+                </div>
+                <!-- 3 container -->
+                <div class="container__right-items">
+                    <div class="container__right-items-item">
+                        <label for="message"> Message </label>
+                    </div>
+                    <div class="container__right-items-item">
+                        <textarea class="container__right-items-textarea" cols="60" rows="5" name="address" placeholder="Your text here"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+            <footer>
+            </form>
+        </body>
+        </html>
