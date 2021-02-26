@@ -34,7 +34,7 @@ ul {
 }
 
 .header__menu-list {
-  padding-left: 40px;
+  margin-left: 40px;
 }
 
 .header__menu-list:last-child {
@@ -156,7 +156,8 @@ ul {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-bottom: 35px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .services__items-item {
@@ -169,6 +170,7 @@ ul {
   -webkit-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
           box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
+  margin-bottom: 35px;
 }
 
 .services__items-item-title {
@@ -204,7 +206,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 60px;
+  line-height: 45px;
   color: #458FF6;
   background-color: transparent;
   width: 200px;
