@@ -511,9 +511,6 @@ ul {
   position: absolute;
   left: 710px;
   top: 16px;
-  opacity: 0.6;
-  -webkit-transform: rotate(-187.84deg);
-          transform: rotate(-187.84deg);
   z-index: -1;
 }
 
@@ -603,5 +600,104 @@ ul {
 .footer {
   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
   background-size: cover;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 115px;
+  padding-bottom: 115px;
+  position: relative;
+}
+
+.footer__bgpic {
+  z-index: 2;
+}
+
+.footer__bgpic-left {
+  position: absolute;
+  top: 320px;
+  right: 1300px;
+}
+
+.footer__bgpic-right {
+  position: absolute;
+  left: 1235px;
+  bottom: 382px;
+}
+
+.footer__span {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #5B9BF3;
+  border: 1px solid white;
+  width: 41px;
+  height: 41px;
+  background: #FFFFFF;
+  padding: 5px 13px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.footer__disclaimer-img {
+  top: 6px;
+  position: relative;
+  margin-left: 12px;
+}
+
+.footer__disclaimer-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: 22px;
+  max-width: 390px;
+}
+
+.footer__disclaimer-copyright {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.footer__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 145px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__items-list {
+  margin-right: 137px;
+}
+
+.footer__items-list:last-child {
+  margin-right: 0;
+}
+
+.footer__items-list-header {
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFFFFF;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer__items-list-item {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
